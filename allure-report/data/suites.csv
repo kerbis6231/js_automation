@@ -1,0 +1,10 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Oct 21 03:02:19 IDT 2021","Thu Oct 21 03:02:31 IDT 2021","11662","","Tested on - Tal KerbisChanging playback speed AND verifying that UI logic updateD according to user actions ","","Tested on - Tal KerbisChanging playback speed AND verifying that UI logic updateD according to user actions ","should test playback default speed change 75","should test playback default speed change 75",""
+"passed","Wed Oct 20 20:40:11 IDT 2021","Wed Oct 20 20:40:30 IDT 2021","19805","","Tested on - Tal Kerbis
+    Test Error pop ups of Download From URL ","","Tested on - Tal Kerbis
+    Test Error pop ups of Download From URL ","should start download of bad FORMAT and verify error pop up  ","should start download of bad FORMAT and verify error pop up  ",""
+"passed","Wed Oct 20 20:41:36 IDT 2021","Wed Oct 20 20:41:52 IDT 2021","15569","","Tested on - Tal KerbisTest Stream From URL","","Tested on - Tal KerbisTest Stream From URL","should start stream of some url and ","should start stream of some url and ",""
+"broken","Thu Oct 21 03:02:31 IDT 2021","Thu Oct 21 03:02:37 IDT 2021","6034","","Tested on - Tal KerbisChanging playback speed AND verifying that UI logic updateD according to user actions ","","Tested on - Tal KerbisChanging playback speed AND verifying that UI logic updateD according to user actions ","should test playback default speed change 50","should test playback default speed change 50",""
+"passed","Wed Oct 20 20:40:30 IDT 2021","Wed Oct 20 20:41:18 IDT 2021","47619","","Tested on - Tal Kerbis
+    Test Error pop ups of Download From URL ","","Tested on - Tal Kerbis
+    Test Error pop ups of Download From URL ","should start download of bad SCHEME and verify error pop up  ","should start download of bad SCHEME and verify error pop up  ",""

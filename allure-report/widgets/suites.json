@@ -1,0 +1,37 @@
+{
+  "total" : 3,
+  "items" : [ {
+    "uid" : "8b80bcd8cc9581afa4eede70376bcb4b",
+    "name" : "Tested on - Tal KerbisChanging playback speed AND verifying that UI logic updateD according to user actions ",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "2619071a8fe040d33dc0e6a3553a0bf8",
+    "name" : "Tested on - Tal Kerbis\n    Test Error pop ups of Download From URL ",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "f2dd8a29b7b8c3905ec983c514d111fa",
+    "name" : "Tested on - Tal KerbisTest Stream From URL",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}

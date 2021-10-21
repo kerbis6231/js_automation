@@ -1,0 +1,173 @@
+{
+  "uid" : "f0ace3421baf1452",
+  "name" : "should start download of bad SCHEME and verify error pop up  ",
+  "fullName" : "Tested on - Tal Kerbis\n    Test Error pop ups of Download From URL .should start download of bad SCHEME and verify error pop up  ",
+  "historyId" : "1e23d3a7bf93f9354534f1c0864a32be",
+  "time" : {
+    "start" : 1634751630837,
+    "stop" : 1634751678456,
+    "duration" : 47619
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "step of handling local netowrk",
+      "time" : {
+        "start" : 1634751652388,
+        "stop" : 1634751652388,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "step of handling done button",
+      "time" : {
+        "start" : 1634751653902,
+        "stop" : 1634751653902,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "step of click on network tab",
+      "time" : {
+        "start" : 1634751655340,
+        "stop" : 1634751655340,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "step of click on downloads button",
+      "time" : {
+        "start" : 1634751656105,
+        "stop" : 1634751656105,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "step of setting URL - abc.mp4",
+      "time" : {
+        "start" : 1634751657032,
+        "stop" : 1634751657032,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "step of click on download",
+      "time" : {
+        "start" : 1634751659883,
+        "stop" : 1634751659883,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "verify bad scheme",
+      "time" : {
+        "start" : 1634751671692,
+        "stop" : 1634751671692,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Tested on - Tal Kerbis\n    Test Error pop ups of Download From URL "
+  }, {
+    "name" : "testClass",
+    "value" : "Tested on - Tal Kerbis\n    Test Error pop ups of Download From URL "
+  }, {
+    "name" : "testMethod",
+    "value" : "should start download of bad SCHEME and verify error pop up  "
+  }, {
+    "name" : "package",
+    "value" : "Tested on - Tal Kerbis\n    Test Error pop ups of Download From URL "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "Tal Kerbis-14"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f0ace3421baf1452.json",
+  "parameterValues" : [ "Tal Kerbis-14" ]
+}

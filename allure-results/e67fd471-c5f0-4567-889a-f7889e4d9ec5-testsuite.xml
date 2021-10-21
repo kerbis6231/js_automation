@@ -1,0 +1,106 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1634772875902' stop='1634772903159'>
+    <name>Tested on - Tal KerbisChanging playback speed AND verifying that UI logic updateD according to user actions </name>
+    <title>Tested on - Tal KerbisChanging playback speed AND verifying that UI logic updateD according to user actions </title>
+    <test-cases>
+        <test-case start='1634772875902' status='passed' stop='1634772887466'>
+            <name>should test playback default speed change 75</name>
+            <title>should test playback default speed change 75</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='Tal Kerbis-14'/>
+            </parameters>
+            <steps>
+                <step start='1634772875904' status='passed' stop='1634772875904'>
+                    <name>step of handling local netowrk</name>
+                    <title>step of handling local netowrk</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1634772877383' status='passed' stop='1634772877383'>
+                    <name>step of handling done button</name>
+                    <title>step of handling done button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1634772878063' status='passed' stop='1634772878063'>
+                    <name>click on settings tab</name>
+                    <title>click on settings tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1634772878906' status='passed' stop='1634772878906'>
+                    <name>click on default playback speed</name>
+                    <title>click on default playback speed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1634772880636' status='passed' stop='1634772880636'>
+                    <name>click on 75</name>
+                    <title>click on 75</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1634772887466' status='broken' stop='1634772903159'>
+            <name>should test playback default speed change 50</name>
+            <title>should test playback default speed change 50</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='Tal Kerbis-14'/>
+            </parameters>
+            <steps>
+                <step start='1634772887467' status='passed' stop='1634772887467'>
+                    <name>step of handling local netowrk</name>
+                    <title>step of handling local netowrk</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1634772888237' status='passed' stop='1634772888237'>
+                    <name>step of handling done button</name>
+                    <title>step of handling done button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1634772893495' status='passed' stop='1634772893495'>
+                    <name>click on settings tab</name>
+                    <title>click on settings tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1634772894487' status='passed' stop='1634772894487'>
+                    <name>click on default playback speed</name>
+                    <title>click on default playback speed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1634772896091' status='passed' stop='1634772896091'>
+                    <name>click on 50</name>
+                    <title>click on 50</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='e982bb7b-bca8-498a-99ca-d19df59050f3-attachment.png' type='image/png' size='414402'/>
+            </attachments>
+            <failure>
+                <message>Can't call getAttribute on element with selector "~0.75x" because element wasn't found</message>
+                <stack-trace>Error: Can't call getAttribute on element with selector "~0.75x" because element wasn't found
+                    at Element.&lt;anonymous> (/Users/talkerbis/js_automation/node_modules/@wdio/utils/build/shim.js:270:24)
+                    at DefaultPlayBackSpeedFlow.verify_speed_was_set_to_seventy_five (/Users/talkerbis/js_automation/src/test-flows/settings/defaultPlayBackSpeedFlow.js:22:63)
+                    at Context.&lt;anonymous> (/Users/talkerbis/js_automation/src/test-scripts/settings/Test_Default_Playback_Speed.js:28:32)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

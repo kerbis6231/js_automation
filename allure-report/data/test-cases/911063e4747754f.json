@@ -1,0 +1,141 @@
+{
+  "uid" : "911063e4747754f",
+  "name" : "should test playback default speed change 75",
+  "fullName" : "Tested on - Tal KerbisChanging playback speed AND verifying that UI logic updateD according to user actions .should test playback default speed change 75",
+  "historyId" : "e576481f4672d3becbc53c1883f1bec7",
+  "time" : {
+    "start" : 1634752238800,
+    "stop" : 1634752249851,
+    "duration" : 11051
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "step of handling local netowrk",
+      "time" : {
+        "start" : 1634752238802,
+        "stop" : 1634752238802,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "step of handling done button",
+      "time" : {
+        "start" : 1634752239785,
+        "stop" : 1634752239785,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click on settings tab",
+      "time" : {
+        "start" : 1634752240348,
+        "stop" : 1634752240348,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click on default playback speed",
+      "time" : {
+        "start" : 1634752241184,
+        "stop" : 1634752241184,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click on 75",
+      "time" : {
+        "start" : 1634752242950,
+        "stop" : 1634752242950,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Tested on - Tal KerbisChanging playback speed AND verifying that UI logic updateD according to user actions "
+  }, {
+    "name" : "testClass",
+    "value" : "Tested on - Tal KerbisChanging playback speed AND verifying that UI logic updateD according to user actions "
+  }, {
+    "name" : "testMethod",
+    "value" : "should test playback default speed change 75"
+  }, {
+    "name" : "package",
+    "value" : "Tested on - Tal KerbisChanging playback speed AND verifying that UI logic updateD according to user actions "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "Tal Kerbis-14"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "911063e4747754f.json",
+  "parameterValues" : [ "Tal Kerbis-14" ]
+}

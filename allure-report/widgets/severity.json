@@ -1,0 +1,51 @@
+[ {
+  "uid" : "58d873ed2a7a16d5",
+  "name" : "should test playback default speed change 75",
+  "time" : {
+    "start" : 1634774539793,
+    "stop" : 1634774551455,
+    "duration" : 11662
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f0ace3421baf1452",
+  "name" : "should start download of bad SCHEME and verify error pop up  ",
+  "time" : {
+    "start" : 1634751630837,
+    "stop" : 1634751678456,
+    "duration" : 47619
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "973fecbca5a7cfe7",
+  "name" : "should start stream of some url and ",
+  "time" : {
+    "start" : 1634751696567,
+    "stop" : 1634751712136,
+    "duration" : 15569
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "edbf1ceb6f6c4324",
+  "name" : "should test playback default speed change 50",
+  "time" : {
+    "start" : 1634774551456,
+    "stop" : 1634774557490,
+    "duration" : 6034
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "196a5a1ccff648f5",
+  "name" : "should start download of bad FORMAT and verify error pop up  ",
+  "time" : {
+    "start" : 1634751611032,
+    "stop" : 1634751630837,
+    "duration" : 19805
+  },
+  "status" : "passed",
+  "severity" : "critical"
+} ]

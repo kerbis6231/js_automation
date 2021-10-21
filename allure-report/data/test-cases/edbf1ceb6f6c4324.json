@@ -1,0 +1,139 @@
+{
+  "uid" : "edbf1ceb6f6c4324",
+  "name" : "should test playback default speed change 50",
+  "fullName" : "Tested on - Tal KerbisChanging playback speed AND verifying that UI logic updateD according to user actions .should test playback default speed change 50",
+  "historyId" : "dfe4727c5cd1997791800aa6740859de",
+  "time" : {
+    "start" : 1634774551456,
+    "stop" : 1634774557490,
+    "duration" : 6034
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "A sessionId is required for this command",
+  "statusTrace" : "Error: A sessionId is required for this command\n                    at Browser.<anonymous> (/Users/talkerbis/js_automation/node_modules/@wdio/utils/build/shim.js:270:24)\n                    at $ (/Users/talkerbis/js_automation/node_modules/@wdio/runner/build/index.js:193:42)\n                    at SettingsTab.settings_tab_button (/Users/talkerbis/js_automation/src/page-objects/settings/settingsTab.js:10:16)\n                    at SettingsTab.click_on_settings_tab (/Users/talkerbis/js_automation/src/page-objects/settings/settingsTab.js:15:14)\n                    at SettingsTabFlow.enter_settings_screen (/Users/talkerbis/js_automation/src/test-flows/settings/settingsTabFlow.js:9:21)\n                    at Context.<anonymous> (/Users/talkerbis/js_automation/src/test-scripts/settings/Test_Default_Playback_Speed.js:26:27)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "A sessionId is required for this command",
+    "statusTrace" : "Error: A sessionId is required for this command\n                    at Browser.<anonymous> (/Users/talkerbis/js_automation/node_modules/@wdio/utils/build/shim.js:270:24)\n                    at $ (/Users/talkerbis/js_automation/node_modules/@wdio/runner/build/index.js:193:42)\n                    at SettingsTab.settings_tab_button (/Users/talkerbis/js_automation/src/page-objects/settings/settingsTab.js:10:16)\n                    at SettingsTab.click_on_settings_tab (/Users/talkerbis/js_automation/src/page-objects/settings/settingsTab.js:15:14)\n                    at SettingsTabFlow.enter_settings_screen (/Users/talkerbis/js_automation/src/test-flows/settings/settingsTabFlow.js:9:21)\n                    at Context.<anonymous> (/Users/talkerbis/js_automation/src/test-scripts/settings/Test_Default_Playback_Speed.js:26:27)",
+    "steps" : [ {
+      "name" : "step of handling local netowrk",
+      "time" : {
+        "start" : 1634774551456,
+        "stop" : 1634774551456,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "step of handling done button",
+      "time" : {
+        "start" : 1634774552233,
+        "stop" : 1634774552233,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click on settings tab",
+      "time" : {
+        "start" : 1634774557479,
+        "stop" : 1634774557479,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Tested on - Tal KerbisChanging playback speed AND verifying that UI logic updateD according to user actions "
+  }, {
+    "name" : "testClass",
+    "value" : "Tested on - Tal KerbisChanging playback speed AND verifying that UI logic updateD according to user actions "
+  }, {
+    "name" : "testMethod",
+    "value" : "should test playback default speed change 50"
+  }, {
+    "name" : "package",
+    "value" : "Tested on - Tal KerbisChanging playback speed AND verifying that UI logic updateD according to user actions "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "Tal Kerbis-14"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "64a67f6873927ef4",
+      "status" : "broken",
+      "statusDetails" : "Can't call getAttribute on element with selector \"~0.75x\" because element wasn't found",
+      "time" : {
+        "start" : 1634772887466,
+        "stop" : 1634772903159,
+        "duration" : 15693
+      }
+    }, {
+      "uid" : "9bcfb0d8a85d6371",
+      "status" : "broken",
+      "statusDetails" : "Can't call getAttribute on element with selector \"~0.75x\" because element wasn't found",
+      "time" : {
+        "start" : 1634752249851,
+        "stop" : 1634752265738,
+        "duration" : 15887
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "edbf1ceb6f6c4324.json",
+  "parameterValues" : [ "Tal Kerbis-14" ]
+}

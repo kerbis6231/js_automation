@@ -1,0 +1,151 @@
+{
+  "uid" : "64a67f6873927ef4",
+  "name" : "should test playback default speed change 50",
+  "fullName" : "Tested on - Tal KerbisChanging playback speed AND verifying that UI logic updateD according to user actions .should test playback default speed change 50",
+  "historyId" : "dfe4727c5cd1997791800aa6740859de",
+  "time" : {
+    "start" : 1634772887466,
+    "stop" : 1634772903159,
+    "duration" : 15693
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Can't call getAttribute on element with selector \"~0.75x\" because element wasn't found",
+  "statusTrace" : "Error: Can't call getAttribute on element with selector \"~0.75x\" because element wasn't found\n                    at Element.<anonymous> (/Users/talkerbis/js_automation/node_modules/@wdio/utils/build/shim.js:270:24)\n                    at DefaultPlayBackSpeedFlow.verify_speed_was_set_to_seventy_five (/Users/talkerbis/js_automation/src/test-flows/settings/defaultPlayBackSpeedFlow.js:22:63)\n                    at Context.<anonymous> (/Users/talkerbis/js_automation/src/test-scripts/settings/Test_Default_Playback_Speed.js:28:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Can't call getAttribute on element with selector \"~0.75x\" because element wasn't found",
+    "statusTrace" : "Error: Can't call getAttribute on element with selector \"~0.75x\" because element wasn't found\n                    at Element.<anonymous> (/Users/talkerbis/js_automation/node_modules/@wdio/utils/build/shim.js:270:24)\n                    at DefaultPlayBackSpeedFlow.verify_speed_was_set_to_seventy_five (/Users/talkerbis/js_automation/src/test-flows/settings/defaultPlayBackSpeedFlow.js:22:63)\n                    at Context.<anonymous> (/Users/talkerbis/js_automation/src/test-scripts/settings/Test_Default_Playback_Speed.js:28:32)",
+    "steps" : [ {
+      "name" : "step of handling local netowrk",
+      "time" : {
+        "start" : 1634772887467,
+        "stop" : 1634772887467,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "step of handling done button",
+      "time" : {
+        "start" : 1634772888237,
+        "stop" : 1634772888237,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click on settings tab",
+      "time" : {
+        "start" : 1634772893495,
+        "stop" : 1634772893495,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click on default playback speed",
+      "time" : {
+        "start" : 1634772894487,
+        "stop" : 1634772894487,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click on 50",
+      "time" : {
+        "start" : 1634772896091,
+        "stop" : 1634772896091,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "f3d25f57ad4b30e6",
+      "name" : "Screenshot",
+      "source" : "f3d25f57ad4b30e6.png",
+      "type" : "image/png",
+      "size" : 414402
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Tested on - Tal KerbisChanging playback speed AND verifying that UI logic updateD according to user actions "
+  }, {
+    "name" : "testClass",
+    "value" : "Tested on - Tal KerbisChanging playback speed AND verifying that UI logic updateD according to user actions "
+  }, {
+    "name" : "testMethod",
+    "value" : "should test playback default speed change 50"
+  }, {
+    "name" : "package",
+    "value" : "Tested on - Tal KerbisChanging playback speed AND verifying that UI logic updateD according to user actions "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "Tal Kerbis-14"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "64a67f6873927ef4.json",
+  "parameterValues" : [ "Tal Kerbis-14" ]
+}

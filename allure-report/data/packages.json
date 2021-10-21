@@ -1,0 +1,82 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "Tested on - Tal Kerbis\n    Test Error pop ups of Download From URL ",
+    "children" : [ {
+      "name" : "should start download of bad FORMAT and verify error pop up  ",
+      "uid" : "196a5a1ccff648f5",
+      "parentUid" : "693c187d6182754943c6f276dfeed865",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634751611032,
+        "stop" : 1634751630837,
+        "duration" : 19805
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Tal Kerbis-14" ]
+    }, {
+      "name" : "should start download of bad SCHEME and verify error pop up  ",
+      "uid" : "f0ace3421baf1452",
+      "parentUid" : "693c187d6182754943c6f276dfeed865",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634751630837,
+        "stop" : 1634751678456,
+        "duration" : 47619
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Tal Kerbis-14" ]
+    } ],
+    "uid" : "693c187d6182754943c6f276dfeed865"
+  }, {
+    "name" : "Tested on - Tal KerbisTest Stream From URL",
+    "children" : [ {
+      "name" : "should start stream of some url and ",
+      "uid" : "973fecbca5a7cfe7",
+      "parentUid" : "aaf8a795327be2b6c32420e124ff1b90",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634751696567,
+        "stop" : 1634751712136,
+        "duration" : 15569
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Tal Kerbis-14" ]
+    } ],
+    "uid" : "aaf8a795327be2b6c32420e124ff1b90"
+  }, {
+    "name" : "Tested on - Tal KerbisChanging playback speed AND verifying that UI logic updateD according to user actions ",
+    "children" : [ {
+      "name" : "should test playback default speed change 75",
+      "uid" : "58d873ed2a7a16d5",
+      "parentUid" : "e0e9d73a2fbeab26041ff22671c95ac0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634774539793,
+        "stop" : 1634774551455,
+        "duration" : 11662
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Tal Kerbis-14" ]
+    }, {
+      "name" : "should test playback default speed change 50",
+      "uid" : "edbf1ceb6f6c4324",
+      "parentUid" : "e0e9d73a2fbeab26041ff22671c95ac0",
+      "status" : "broken",
+      "time" : {
+        "start" : 1634774551456,
+        "stop" : 1634774557490,
+        "duration" : 6034
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Tal Kerbis-14" ]
+    } ],
+    "uid" : "e0e9d73a2fbeab26041ff22671c95ac0"
+  } ]
+}

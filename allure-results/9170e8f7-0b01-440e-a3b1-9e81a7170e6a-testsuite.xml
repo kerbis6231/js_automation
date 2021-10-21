@@ -1,0 +1,64 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1634751696566' stop='1634751712137'>
+    <name>Tested on - Tal KerbisTest Stream From URL</name>
+    <title>Tested on - Tal KerbisTest Stream From URL</title>
+    <test-cases>
+        <test-case start='1634751696567' status='passed' stop='1634751712136'>
+            <name>should start stream of some url and </name>
+            <title>should start stream of some url and </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='Tal Kerbis-14'/>
+            </parameters>
+            <steps>
+                <step start='1634751696568' status='passed' stop='1634751696568'>
+                    <name>step of handling local netowrk</name>
+                    <title>step of handling local netowrk</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1634751697593' status='passed' stop='1634751697593'>
+                    <name>step of handling done button</name>
+                    <title>step of handling done button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1634751698490' status='passed' stop='1634751698490'>
+                    <name>step of click on network tab</name>
+                    <title>step of click on network tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1634751699334' status='passed' stop='1634751699334'>
+                    <name>step of click on network tab</name>
+                    <title>step of click on network tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1634751700042' status='passed' stop='1634751700042'>
+                    <name>step of network from list</name>
+                    <title>step of network from list</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1634751702026' status='passed' stop='1634751702026'>
+                    <name>step of setting URL - http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4</name>
+                    <title>step of setting URL - http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1634751706231' status='passed' stop='1634751706231'>
+                    <name>step of click on stream</name>
+                    <title>step of click on stream</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

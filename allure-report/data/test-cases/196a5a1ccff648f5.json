@@ -1,0 +1,190 @@
+{
+  "uid" : "196a5a1ccff648f5",
+  "name" : "should start download of bad FORMAT and verify error pop up  ",
+  "fullName" : "Tested on - Tal Kerbis\n    Test Error pop ups of Download From URL .should start download of bad FORMAT and verify error pop up  ",
+  "historyId" : "766a28dea4197a96c671047c8798944f",
+  "time" : {
+    "start" : 1634751611032,
+    "stop" : 1634751630837,
+    "duration" : 19805
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "step of handling local netowrk",
+      "time" : {
+        "start" : 1634751611034,
+        "stop" : 1634751611034,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "step of handling done button",
+      "time" : {
+        "start" : 1634751612027,
+        "stop" : 1634751612027,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "step of click on network tab",
+      "time" : {
+        "start" : 1634751612972,
+        "stop" : 1634751612972,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "step of click on downloads button",
+      "time" : {
+        "start" : 1634751613788,
+        "stop" : 1634751613788,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "step of setting URL - abc.com",
+      "time" : {
+        "start" : 1634751614543,
+        "stop" : 1634751614543,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "step of click on download",
+      "time" : {
+        "start" : 1634751616871,
+        "stop" : 1634751616871,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "verify unsupported format",
+      "time" : {
+        "start" : 1634751628539,
+        "stop" : 1634751628539,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "issue",
+    "value" : "IOS-5331"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "testId",
+    "value" : "Test ID 0031 - Test downloads"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Tested on - Tal Kerbis\n    Test Error pop ups of Download From URL "
+  }, {
+    "name" : "testClass",
+    "value" : "Tested on - Tal Kerbis\n    Test Error pop ups of Download From URL "
+  }, {
+    "name" : "testMethod",
+    "value" : "should start download of bad FORMAT and verify error pop up  "
+  }, {
+    "name" : "package",
+    "value" : "Tested on - Tal Kerbis\n    Test Error pop ups of Download From URL "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "Tal Kerbis-14"
+  } ],
+  "links" : [ {
+    "name" : "IOS-5331",
+    "url" : "IOS-5331",
+    "type" : "issue"
+  }, {
+    "name" : "Test ID 0031 - Test downloads",
+    "url" : "Test ID 0031 - Test downloads",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "196a5a1ccff648f5.json",
+  "parameterValues" : [ "Tal Kerbis-14" ]
+}

@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "A sessionId is required for this command",
+      "children" : [ {
+        "name" : "should test playback default speed change 50",
+        "uid" : "edbf1ceb6f6c4324",
+        "parentUid" : "1643d54064d2526029fbcca8cca363f5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1634774551456,
+          "stop" : 1634774557490,
+          "duration" : 6034
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Tal Kerbis-14" ]
+      } ],
+      "uid" : "1643d54064d2526029fbcca8cca363f5"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

@@ -1,0 +1,126 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1634751611032' stop='1634751678457'>
+    <name>Tested on - Tal Kerbis
+    Test Error pop ups of Download From URL </name>
+    <title>Tested on - Tal Kerbis
+    Test Error pop ups of Download From URL </title>
+    <test-cases>
+        <test-case start='1634751611032' status='passed' stop='1634751630837'>
+            <name>should start download of bad FORMAT and verify error pop up  </name>
+            <title>should start download of bad FORMAT and verify error pop up  </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='testId' value='Test ID 0031 - Test downloads'/>
+                <label name='issue' value='IOS-5331'/>
+                <label name='severity' value='critical'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='Tal Kerbis-14'/>
+            </parameters>
+            <steps>
+                <step start='1634751611034' status='passed' stop='1634751611034'>
+                    <name>step of handling local netowrk</name>
+                    <title>step of handling local netowrk</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1634751612027' status='passed' stop='1634751612027'>
+                    <name>step of handling done button</name>
+                    <title>step of handling done button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1634751612972' status='passed' stop='1634751612972'>
+                    <name>step of click on network tab</name>
+                    <title>step of click on network tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1634751613788' status='passed' stop='1634751613788'>
+                    <name>step of click on downloads button</name>
+                    <title>step of click on downloads button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1634751614543' status='passed' stop='1634751614543'>
+                    <name>step of setting URL - abc.com</name>
+                    <title>step of setting URL - abc.com</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1634751616871' status='passed' stop='1634751616871'>
+                    <name>step of click on download</name>
+                    <title>step of click on download</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1634751628539' status='passed' stop='1634751628539'>
+                    <name>verify unsupported format</name>
+                    <title>verify unsupported format</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1634751630837' status='passed' stop='1634751678456'>
+            <name>should start download of bad SCHEME and verify error pop up  </name>
+            <title>should start download of bad SCHEME and verify error pop up  </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='Tal Kerbis-14'/>
+            </parameters>
+            <steps>
+                <step start='1634751652388' status='passed' stop='1634751652388'>
+                    <name>step of handling local netowrk</name>
+                    <title>step of handling local netowrk</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1634751653902' status='passed' stop='1634751653902'>
+                    <name>step of handling done button</name>
+                    <title>step of handling done button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1634751655340' status='passed' stop='1634751655340'>
+                    <name>step of click on network tab</name>
+                    <title>step of click on network tab</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1634751656105' status='passed' stop='1634751656105'>
+                    <name>step of click on downloads button</name>
+                    <title>step of click on downloads button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1634751657032' status='passed' stop='1634751657032'>
+                    <name>step of setting URL - abc.mp4</name>
+                    <title>step of setting URL - abc.mp4</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1634751659883' status='passed' stop='1634751659883'>
+                    <name>step of click on download</name>
+                    <title>step of click on download</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1634751671692' status='passed' stop='1634751671692'>
+                    <name>verify bad scheme</name>
+                    <title>verify bad scheme</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
