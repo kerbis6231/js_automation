@@ -14,9 +14,9 @@ describe(INTRO_TEXT + '\nTest Error pop ups of Download From URL ' , function(){
         allureReporter.addSeverity("critical")
         let downloads_flow = new FileDownloadFlow(UNSUPPORTED_FORMAT.unsupported_format)
 
-        network_tab_flow.enter_downloads_screen()
-        downloads_flow.set_url_and_download()
-        downloads_flow.verify_pop_up_error_of_unsupported()
+        network_tab_flow.enterDownloadsScreen()
+        downloads_flow.setUrlAndDownload()
+        downloads_flow.verifyPopupErrorOfUnsupportedUrl()
 
     });
     it('Should start download of bad SCHEME and verify error pop up  ', function() {
@@ -25,9 +25,9 @@ describe(INTRO_TEXT + '\nTest Error pop ups of Download From URL ' , function(){
         driver.closeApp()
         driver.launchApp()
 
-        network_tab_flow.enter_downloads_screen()
-        downloads_flow2.set_url_and_download()
-        downloads_flow2.verify_pop_up_error_of_bad_scheme()
+        network_tab_flow.enterDownloadsScreen()
+        downloads_flow2.setUrlAndDownload()
+        downloads_flow2.verifyPopUpErrorOfBadScheme()
 
         browser.pause(4000)
 

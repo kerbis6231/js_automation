@@ -1,16 +1,17 @@
-const DONE = '~Done'
-const NETWORK_TAB = '~localNetwork'
-const SETTINGS_TAB = '~settings'
 import allureReporter from '@wdio/allure-reporter'
+
+//TODO - Move this selectors to external file and parse them
+
+const DONE = '~Done'
 
 class NavBar{
 
-    get done_button(){
+    get doneBtn(){
         return $(DONE)
     }
 
 
-    handle_local_network_popup(){
+    handleLocalNetworkPopup(){
         allureReporter.addStep('step of handling local netowrk')
         try{
             driver.acceptAlert()
@@ -23,11 +24,11 @@ class NavBar{
         }
     }
 
-    handle_done_button_for_dialog(){
+    handleDoneBtnForDialog(){
         allureReporter.addStep('step of handling done button')
 
         try{
-            this.done_button.click()
+            this.doneBtn.click()
         }
         catch (e){
             console.log(e)

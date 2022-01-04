@@ -4,19 +4,19 @@ import NavBar from "../../page-objects/common/navBar";
 class NetworkTabFlow{
 
 
-    enter_stream_screen(){
-        NavBar.handle_local_network_popup()
-        NavBar.handle_done_button_for_dialog()
-        if(!NetworkTab.is_on_network_tab()) NetworkTab.clickNetworkTabButton()
-        NetworkTab.clickNetworkTabButton().click_open_network_stream_from_list_button()
+    enterStreamScreen(){
+        NavBar.handleLocalNetworkPopup()
+        NavBar.handleDoneBtnForDialog()
+        if(!NetworkTab.isOnNetworkTab()) NetworkTab.clickNetworkTabButton()
+        NetworkTab.clickNetworkTabButton().clickOpenNetworkStreamFromListBtn()
 
     }
 
-    enter_downloads_screen(){
-        NavBar.handle_local_network_popup()
-        NavBar.handle_done_button_for_dialog()
-        if(!NetworkTab.is_on_network_tab()) NetworkTab.clickNetworkTabButton()
-        NetworkTab.click_downloads_button_from_list()
+    enterDownloadsScreen(){
+        NavBar.handleLocalNetworkPopup()
+        NavBar.handleDoneBtnForDialog()
+        if(!NetworkTab.isOnNetworkTab()) NetworkTab.clickNetworkTabButton()
+        NetworkTab.clickDownloadsBtnFromList()
 
     }
 }

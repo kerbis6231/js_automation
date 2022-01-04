@@ -2,28 +2,28 @@ import DefaultPlayBackSpeed from "../../page-objects/settings/defaultPlayBackSpe
 
 class DefaultPlayBackSpeedFlow{
 
-    set_speed_to_seventy_five(){
-        DefaultPlayBackSpeed.click_on_default_playback_speed().click_on_speed_seventy_five()
+    setSpeedToSeventyFive(){
+        DefaultPlayBackSpeed.clickOnDefaultPlaybackSpeed().clickOnSpeedSeventyFive()
 
     }
 
-    set_speed_to_fifty(){
-        DefaultPlayBackSpeed.click_on_default_playback_speed().click_on_speed_fifty()
+    setSpeedToFifty(){
+        DefaultPlayBackSpeed.clickOnDefaultPlaybackSpeed().clickOnSpeedFifty()
 
     }
 
-    verify_speed_was_set_to_seventy_five(){
+    verifySpeedWasSetToSeventyFive(){
         console.log("seventyfive test")
-        console.log(DefaultPlayBackSpeed.speed_of_seventy_five.getText())
+        console.log(DefaultPlayBackSpeed.speedOfSeventyFive.getText())
 
-        chaiExpect(DefaultPlayBackSpeed.speed_of_seventy_five.getAttribute("visible")).to.be.string("true", "the selected speed is not visible")
+        chaiExpect(DefaultPlayBackSpeed.speedOfSeventyFive.getAttribute("visible")).to.be.string("true", "the selected speed is not visible")
 
-        chaiExpect(DefaultPlayBackSpeed.speed_of_seventy_five.getText()).to.contain("0.75", "Not on 75")
+        chaiExpect(DefaultPlayBackSpeed.speedOfSeventyFive.getText()).to.contain("0.75", "Not on 75")
 
     }
 
-    verify_speed_was_set_to_fifty(){
-        chaiExpect(DefaultPlayBackSpeed.speed_of_fifty.getText()).to.contain("0.50", "Not on 50")
+    verifySpeedWasSetToFifty(){
+        chaiExpect(DefaultPlayBackSpeed.speedOfFifty.getText()).to.contain("0.50", "Not on 50")
 
     }
 }

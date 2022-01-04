@@ -1,40 +1,41 @@
 //Declare selector calues on the page
 import allureReporter from "@wdio/allure-reporter";
 
+//TODO - Move this selectors to external file and parse them
 const DEFAULT_PLAYBACK_SPEED = "~Default playback speed"
 const DOT_SEVENTY_FIVE = "~0.75x"
 const DOT_FIFTY = "~0.50x"
 
 class DefaultPlayBackSpeed {
 
-    get default_playback_speed(){
+    get defaultPlaybackSpeed(){
         return $(DEFAULT_PLAYBACK_SPEED)
     }
 
-    get speed_of_seventy_five(){
+    get speedOfSeventyFive(){
         return $(DOT_SEVENTY_FIVE)
     }
 
-    get speed_of_fifty(){
+    get speedOfFifty(){
         return $(DOT_FIFTY)
     }
 
-    click_on_default_playback_speed(){
+    clickOnDefaultPlaybackSpeed(){
         allureReporter.addStep('click on default playback speed')
-        this.default_playback_speed.click()
+        this.defaultPlaybackSpeed.click()
         return this
     }
 
-    click_on_speed_seventy_five(){
+    clickOnSpeedSeventyFive(){
         allureReporter.addStep('click on 75')
-        this.speed_of_seventy_five.click()
+        this.speedOfSeventyFive.click()
         return this
 
     }
 
-    click_on_speed_fifty(){
+    clickOnSpeedFifty(){
         allureReporter.addStep('click on 50')
-        this.speed_of_fifty.click()
+        this.speedOfFifty.click()
         return this
 
     }

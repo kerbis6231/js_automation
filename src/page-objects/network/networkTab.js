@@ -1,6 +1,7 @@
 import Stream_Screen from "./streamScreen";
 import allureReporter from "@wdio/allure-reporter";
 
+//TODO - Move this selectors to external file and parse them
 const NETWORK = '~localNetwork'
 const STREAM = '~stream'
 const DOWNLOADS = '~Downloads'
@@ -10,42 +11,42 @@ class NetworkTab extends Stream_Screen{
 
 
 
-    get downloads_button(){
+    get downloadsBtn(){
         $(DOWNLOADS).waitForDisplayed()
         return $(DOWNLOADS)
     }
 
-    get network_tab(){
+    get networkTab(){
         $(NETWORK).waitForDisplayed()
         return $(NETWORK)
     }
 
-    get open_network_stream_from_list() {
+    get openNetworkStreamFromList() {
         $(STREAM).waitForDisplayed()
         return $(STREAM)
     }
 
-    is_on_network_tab(){
+    isOnNetworkTab(){
         return $(DOWNLOADS).isDisplayed();
 
     }
-    click_downloads_button_from_list(){
+    clickDownloadsBtnFromList(){
         allureReporter.addStep('step of click on downloads button')
 
-        this.downloads_button.click()
+        this.downloadsBtn.click()
         return this
     }
 
     clickNetworkTabButton(){
         allureReporter.addStep('step of click on network tab')
-        this.network_tab.click()
+        this.networkTab.click()
         return this
 
     }
 
-    click_open_network_stream_from_list_button(){
+    clickOpenNetworkStreamFromListBtn(){
         allureReporter.addStep('step of network from list')
-        this.open_network_stream_from_list.click()
+        this.openNetworkStreamFromList.click()
         return this
 
     }

@@ -1,16 +1,17 @@
 import allureReporter from "@wdio/allure-reporter";
 
+//TODO - Move this selectors to external file and parse them
 const SETTINGS = '~settings'
 
 class SettingsTab {
 
-    get settings_tab_button(){
+    get settingsTabButton(){
         return $(SETTINGS)
     }
 
-    click_on_settings_tab(){
+    clcikOnSettingsTab(){
         allureReporter.addStep('click on settings tab')
-        this.settings_tab_button.click()
+        this.settingsTabButton.click()
     }
 }
 export default new SettingsTab();

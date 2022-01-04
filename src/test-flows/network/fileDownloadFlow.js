@@ -7,21 +7,21 @@ class FileDownloadsFlow{
         this.url = url
     }
 
-    set_url_and_download(){
-        Downloads.set_url_to_download_from(this.url).click_on_download()
+    setUrlAndDownload(){
+        Downloads.setUrlToDownloadFrom(this.url).clickToDownload()
         browser.pause(10000)
     }
 
-    verify_pop_up_error_of_unsupported(){
+    verifyPopupErrorOfUnsupportedUrl(){
         allureReporter.addStep('verify unsupported format')
-        chaiExpect(Downloads.alert_of_unsupported_file.getText()).to.contain("File format not supported", "Not Supported Alert didnt show")
+        chaiExpect(Downloads.alertOfUnsupportedFile.getText()).to.contain("File format not supported", "Not Supported Alert didnt show")
         console.log("Unsupported error as expected")
 
     }
 
-    verify_pop_up_error_of_bad_scheme(){
+    verifyPopUpErrorOfBadScheme(){
         allureReporter.addStep('verify bad scheme')
-        chaiExpect(Downloads.alert_of_unsupported_file.getText()).to.contain("scheme", "format Alert didnt show")
+        chaiExpect(Downloads.alertOfUnsupportedFile.getText()).to.contain("scheme", "format Alert didnt show")
         console.log("Bad scheme error as expected")
 
     }
