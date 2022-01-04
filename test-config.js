@@ -10,7 +10,7 @@ exports.config = {
     sync: true,
     specs:[
         "src/test-scripts/network/Test_Network_Downloads.js",
-        // "src/test-scripts/settings/Test_Default_Playback_Speed.js",
+        "src/test-scripts/settings/Test_Default_Playback_Speed.js",
 
     ],
     capabilities:[{
@@ -24,8 +24,6 @@ exports.config = {
         "bundleId": "com.exampletal.vlc-ios",
         "appPushTimeout": 100000,
         "autoGrantPermissions": true,
-        // "autoDismissAlerts": true
-        // "browser": "safari"
 
     }],
     mochaOpts:{
@@ -37,14 +35,14 @@ exports.config = {
     before: function (){
         global.chaiExpect = chai.expect
 
-    }
+    },
 
-    // reporters: [['allure', {
-    //     outputDir: 'allure-results',
-    //     disableWebdriverStepsReporting: true,
-    //     disableMochaHooks: true
-    //
-    // }]
-    // ]
+    reporters: [['allure', {
+        outputDir: 'allure-results',
+        disableWebdriverStepsReporting: true,
+        disableMochaHooks: true
+
+    }]
+    ]
 
 }
