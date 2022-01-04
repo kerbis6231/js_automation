@@ -1,6 +1,4 @@
 import NetworkTab from "../../page-objects/network/networkTab";
-// let url = "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4"
-
 class StreamScreenFlow{
 
     constructor(url) {
@@ -16,8 +14,7 @@ class StreamScreenFlow{
     }
 
     verify_url_txt(txt_box_el, value){
-        // return expect(value).toHaveText("mp4", {containing:true})
-        chaiExpect(txt_box_el.getText()).to.contain(value, "ERR- kaka was not found")
+        chaiExpect(txt_box_el.getText()).to.contain(value, "ERR- this was not found")
 
     }
 }

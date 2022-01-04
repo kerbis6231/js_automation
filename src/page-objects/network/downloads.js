@@ -8,10 +8,6 @@ const ADDRESS_SCHEME_NOT_SUPPORTED = '//*[@name="Address scheme not supported"]'
 class Downloads {
 
 
-    wait_for_screen_to_load() {
-        $(URL_TEXT_BOX).waitForDisplayed()
-    }
-
     get url_txt_box() {
         return $(URL_TEXT_BOX)
     }
@@ -24,7 +20,6 @@ class Downloads {
     }
     click_on_download(){
         allureReporter.addStep('step of click on download')
-
         $(DOWNLOAD_FILE).click()
         return this
     }
@@ -35,5 +30,4 @@ class Downloads {
     }
 
 }
-// module.exports = Downloads;
 export default new Downloads();

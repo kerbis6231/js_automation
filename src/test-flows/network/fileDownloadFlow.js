@@ -13,8 +13,6 @@ class FileDownloadsFlow{
     }
 
     verify_pop_up_error_of_unsupported(){
-        // let expected_downlods_playback_speed_title = "Playback Speed"
-        // expect(Downloads.title).toBePresent()
         allureReporter.addStep('verify unsupported format')
         chaiExpect(Downloads.alert_of_unsupported_file.getText()).to.contain("File format not supported", "Not Supported Alert didnt show")
         console.log("Unsupported error as expected")

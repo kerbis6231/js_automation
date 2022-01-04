@@ -5,4 +5,3 @@ const UNSUPPORTED_FORMAT = {unsupported_format:"abc.com"}
 exports.DOWNLOAD_INPUTS = {
     BAD_SCHEME,UNSUPPORTED_FORMAT
 }
-// exports.GOOD_URL = GOOD_URL

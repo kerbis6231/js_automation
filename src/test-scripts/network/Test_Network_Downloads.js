@@ -8,7 +8,7 @@ const INTRO_TEXT = "Tested on - " + driver.capabilities.deviceName
 describe(INTRO_TEXT + '\nTest Error pop ups of Download From URL ' , function(){
     let network_tab_flow = new NetworkTabFlow()
 
-    it('should start download of bad FORMAT and verify error pop up  ', function() {
+    it('Should start download of bad FORMAT and verify error pop up  ', function() {
         allureReporter.addTestId("Test ID 0031 - Test downloads")
         allureReporter.addIssue("IOS-5331")
         allureReporter.addSeverity("critical")
@@ -19,7 +19,7 @@ describe(INTRO_TEXT + '\nTest Error pop ups of Download From URL ' , function(){
         downloads_flow.verify_pop_up_error_of_unsupported()
 
     });
-    it('should start download of bad SCHEME and verify error pop up  ', function() {
+    it('Should start download of bad SCHEME and verify error pop up  ', function() {
         let downloads_flow2 = new FileDownloadFlow(BAD_SCHEME.bad_scheme)
 
         driver.closeApp()

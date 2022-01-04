@@ -1,5 +1,3 @@
-//Declare selector calues on the page
-
 import allureReporter from "@wdio/allure-reporter";
 
 const SETTINGS = '~settings'

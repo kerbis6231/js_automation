@@ -5,15 +5,10 @@ const DEFAULT_PLAYBACK_SPEED = "~Default playback speed"
 const DOT_SEVENTY_FIVE = "~0.75x"
 const DOT_FIFTY = "~0.50x"
 
-const V_IMAGE = '//XCUIElementTypeImage'
 class DefaultPlayBackSpeed {
 
     get default_playback_speed(){
         return $(DEFAULT_PLAYBACK_SPEED)
-    }
-
-    get v_image(){
-        return $(V_IMAGE)
     }
 
     get speed_of_seventy_five(){

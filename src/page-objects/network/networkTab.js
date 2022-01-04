@@ -1,4 +1,3 @@
-//Declare selector calues on the page
 import Stream_Screen from "./streamScreen";
 import allureReporter from "@wdio/allure-reporter";
 
@@ -56,6 +55,3 @@ class NetworkTab extends Stream_Screen{
 }
 
 export default new NetworkTab();
-// module.exports = NetworkTab
-
-//Export an istance and NOT a class

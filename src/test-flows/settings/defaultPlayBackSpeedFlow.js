@@ -13,9 +13,6 @@ class DefaultPlayBackSpeedFlow{
     }
 
     verify_speed_was_set_to_seventy_five(){
-        // chaiExpect(DefaultPlayBackSpeed.speed_of_seventy_five.getText()).to.contain("0.75x", "Not on 75")
-        // if(DefaultPlayBackSpeed.speed_of_seventy_five.isEnabled()){}
-        // driver.findElement()
         console.log("seventyfive test")
         console.log(DefaultPlayBackSpeed.speed_of_seventy_five.getText())
 

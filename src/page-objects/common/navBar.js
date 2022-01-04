@@ -5,21 +5,10 @@ import allureReporter from '@wdio/allure-reporter'
 
 class NavBar{
 
-    wait_until_navigation_bar_displayed(){
-        $(NETWORK_TAB).waitForDisplayed()
-    }
-
     get done_button(){
         return $(DONE)
     }
 
-    get network_tab_button(){
-        return $(NETWORK_TAB)
-    }
-
-    get settings_tab_button(){
-        return $(SETTINGS_TAB)
-    }
 
     handle_local_network_popup(){
         allureReporter.addStep('step of handling local netowrk')

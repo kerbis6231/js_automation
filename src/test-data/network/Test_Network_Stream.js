@@ -5,4 +5,3 @@ const SUPER_BAD_URLS = {bad_url:"hola", very_bad_url:"hopli"}
 exports.URLS = {
     GOOD_AND_BAD_URLS,SUPER_BAD_URLS
 }
-// exports.GOOD_URL = GOOD_URL
